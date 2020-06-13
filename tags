@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+ASSIGN	token/token.go	/^	ASSIGN   = "="$/;"	c	package:token
+ASTERISK	token/token.go	/^	ASTERISK = "*"$/;"	c	package:token
+BANG	token/token.go	/^	BANG     = "!"$/;"	c	package:token
+COMMA	token/token.go	/^	COMMA     = ","$/;"	c	package:token
+ELSE	token/token.go	/^	ELSE     = "ELSE"$/;"	c	package:token
+EOF	token/token.go	/^	EOF     = "EOF"$/;"	c	package:token
+EQ	token/token.go	/^	EQ     = "=="$/;"	c	package:token
+FALSE	token/token.go	/^	FALSE    = "FALSE"$/;"	c	package:token
+FUNCTION	token/token.go	/^	FUNCTION = "FUNCTION"$/;"	c	package:token
+GT	token/token.go	/^	GT = ">"$/;"	c	package:token
+IDENT	token/token.go	/^	IDENT = "IDENT" \/\/ add, foobar, x, y, ...$/;"	c	package:token
+IF	token/token.go	/^	IF       = "IF"$/;"	c	package:token
+ILLEGAL	token/token.go	/^	ILLEGAL = "ILLEGAL"$/;"	c	package:token
+INT	token/token.go	/^	INT   = "INT"   \/\/ 1234567890$/;"	c	package:token
+LBRACE	token/token.go	/^	LBRACE = "{"$/;"	c	package:token
+LET	token/token.go	/^	LET      = "LET"$/;"	c	package:token
+LPAREN	token/token.go	/^	LPAREN = "("$/;"	c	package:token
+LT	token/token.go	/^	LT = "<"$/;"	c	package:token
+Lexer	lexer/lexer.go	/^type Lexer struct {$/;"	s	package:lexer
+Literal	token/token.go	/^	Literal string$/;"	m	struct:token.Token	typeref:typename:string
+LookupIdent	token/token.go	/^func LookupIdent(ident string) TokenType {$/;"	f	package:token	typeref:typename:TokenType
+MINUS	token/token.go	/^	MINUS    = "-"$/;"	c	package:token
+NOT_EQ	token/token.go	/^	NOT_EQ = "!="$/;"	c	package:token
+New	lexer/lexer.go	/^func New(input string) *Lexer {$/;"	f	package:lexer	typeref:typename:*Lexer
+NextToken	lexer/lexer.go	/^func (l *Lexer) NextToken() token.Token {$/;"	f	struct:lexer.Lexer	typeref:typename:token.Token
+PLUS	token/token.go	/^	PLUS     = "+"$/;"	c	package:token
+RBRACE	token/token.go	/^	RBRACE = "}"$/;"	c	package:token
+RETURN	token/token.go	/^	RETURN   = "RETURN"$/;"	c	package:token
+RPAREN	token/token.go	/^	RPAREN = ")"$/;"	c	package:token
+SEMICOLON	token/token.go	/^	SEMICOLON = ";"$/;"	c	package:token
+SLASH	token/token.go	/^	SLASH    = "\/"$/;"	c	package:token
+TRUE	token/token.go	/^	TRUE     = "TRUE"$/;"	c	package:token
+TestNextToken	lexer/lexer_test.go	/^func TestNextToken(t *testing.T) {$/;"	f	package:lexer
+Token	token/token.go	/^type Token struct {$/;"	s	package:token
+TokenType	token/token.go	/^type TokenType string$/;"	t	package:token	typeref:typename:string
+Type	token/token.go	/^	Type    TokenType$/;"	m	struct:token.Token	typeref:typename:TokenType
+ch	lexer/lexer.go	/^	ch           byte$/;"	m	struct:lexer.Lexer	typeref:typename:byte
+input	lexer/lexer.go	/^	input        string$/;"	m	struct:lexer.Lexer	typeref:typename:string
+isDigit	lexer/lexer.go	/^func isDigit(ch byte) bool {$/;"	f	package:lexer	typeref:typename:bool
+isLetter	lexer/lexer.go	/^func isLetter(ch byte) bool {$/;"	f	package:lexer	typeref:typename:bool
+keywords	token/token.go	/^var keywords = map[string]TokenType{$/;"	v	package:token
+lexer	lexer/lexer.go	/^package lexer$/;"	p
+lexer	lexer/lexer_test.go	/^package lexer$/;"	p
+magnes	README.md	/^# magnes$/;"	c
+newToken	lexer/lexer.go	/^func newToken(tokenType token.TokenType, ch byte) token.Token {$/;"	f	package:lexer	typeref:typename:token.Token
+peekChar	lexer/lexer.go	/^func (l *Lexer) peekChar() byte {$/;"	f	struct:lexer.Lexer	typeref:typename:byte
+position	lexer/lexer.go	/^	position     int$/;"	m	struct:lexer.Lexer	typeref:typename:int
+readChar	lexer/lexer.go	/^func (l *Lexer) readChar() {$/;"	f	struct:lexer.Lexer
+readIdentifier	lexer/lexer.go	/^func (l *Lexer) readIdentifier() string {$/;"	f	struct:lexer.Lexer	typeref:typename:string
+readNumber	lexer/lexer.go	/^func (l *Lexer) readNumber() string {$/;"	f	struct:lexer.Lexer	typeref:typename:string
+readPosition	lexer/lexer.go	/^	readPosition int$/;"	m	struct:lexer.Lexer	typeref:typename:int
+skipWhitespace	lexer/lexer.go	/^func (l *Lexer) skipWhitespace() {$/;"	f	struct:lexer.Lexer
+token	token/token.go	/^package token$/;"	p
